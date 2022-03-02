@@ -76,7 +76,7 @@
 <h2> Contact us!</h2>
  
  <h2>General Information</h2>
- <form action="/action_page.php">
+ <form>
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="fname" ><br>
     <label for="lname">Last Name</label>
@@ -91,7 +91,7 @@
 <h2>Essential Questions</h2>
 
 <form>
-    <p>What kind of work do you need?</p>
+    <p style="margin-bottom: 0;">What kind of work do you need?</p>
     <label for="work1">Programming:</label>
     <input type="checkbox" id="work1" name="work1" value="Programming"><br>
     <label for="work2">Design:</label>
@@ -103,7 +103,7 @@
   </form>
 
   <form>
-    <p>How interested are you in our design skills?</p>
+    <p style="margin-bottom: 0;">How interested are you in our design skills?</p>
     <label for="interest1">Very Low</label>
     <input type="radio" id="interest1" name="interest1" value="Very Low"><br>
     <label for="interest2">Low</label>
@@ -120,9 +120,29 @@
 <!-- Essential questions ends -->
 
 <!-- Footer starts -->
-Here is our footer - let's make sure we copyright © this!
+<footer style="margin-bottom: 100px;">Here is our footer - let's make sure we copyright © this!</footer>
 <!-- Footer ends -->
 
+<hr>
+
+<h2>Welcome Back!</h2>
+
+<!-- Youtube starts -->
+<h3>Here's a great video from YouTube!</h3>
+<iframe width="200" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Youtube ends -->
+
+<!-- Spotify starts -->
+<h3>Here's some music from Spotify!</h3>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Fli1xRi01bvCjsZvKWro0?utm_source=generator" width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<!-- Spotify ends -->
+
+<!-- Email form starts -->
+<h5 style="margin-bottom: 0;">Want to stay informed? Put your info here!</h5>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" >
+<input type="submit" value="Join Our Mailing List">
+<!-- Email form ends -->
 
 </body>
 </html>
